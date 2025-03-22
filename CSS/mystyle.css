@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+body {
+	background-color: white;
+	background-size: cover;
+	font-family: libre-bodoni, Grenadine, sans-serif;
+	Margin: 25px 25px;
+}
+
+a{
+	font-family: "libre-bodoni", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	color: darkgreen;
+}
+
+h2{
+	font-family: grenadine-mvb, sans-serif;
+	font-weight: 900;
+	font-size: 63px;
+	color: white;
+	font-style: normal;
+}
+
+	
+
+
+/*h1, h2, h3 {
+	font-size:80px;
+	margin: 0;
+    color: orange;
+}
+*/
+
+#container {
+	background-color: white;
+	width: 1366px;
+	margin: auto;
+}
+
+.logo img {
+	width: 150px;
+	display: flex;
+	margin: 0 0 25px 0;
+	align-self: center;
+}
+
+.center{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+ul{
+	list-style: none;
+	display: inline;
+	margin: 0 0 3px 0;
+}
+
+li{
+	display:inline;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 0 3px 0;
+}
+
+/*Call to Action*/
+
+#Center{
+	margin: auto;
+	align-content: center;
+}
+
+#Center .Cta {
+	background-image: url(../IMAGES/HomepageBanner.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+}
+
+
+
+h3{
+	font-family: grenadine-mvb, sans-serif;
+	color: darkgreen;
+	font-size: 60px;
+	margin: unset;
+}
+
+
+
+#NewArrivals{
+	color: dark green;
+	
+}
