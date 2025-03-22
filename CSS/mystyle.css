@@ -5,14 +5,14 @@ body {
 	background-size: cover;
 	font-family: libre-bodoni, Grenadine, sans-serif;
 	Margin: 25px 25px;
+	display: flex;
+	justify-content: center;
 }
 
-a{
-	font-family: "libre-bodoni", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	text-decoration: none;
-	color: darkgreen;
+#container {
+	background-color: white;
+	width: 1366px;
+	margin: auto;
 }
 
 h2{
@@ -23,20 +23,32 @@ h2{
 	font-style: normal;
 }
 
-	
+/*Header*/
 
-
-/*h1, h2, h3 {
-	font-size:80px;
-	margin: 0;
-    color: orange;
+#nav{
+	display: flex;
+	justify-content: space-evenly;
 }
-*/
 
-#container {
-	background-color: white;
-	width: 1366px;
-	margin: auto;
+.logo{
+	display: flex;
+	justify-content: center;
+}
+
+#nav ul li{
+	margin-right: 100px;
+	margin-left: 100px;
+	list-style: none;
+	display: inline;
+}
+
+a{
+	
+	font-family: "libre-bodoni", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	color: darkgreen;
 }
 
 .logo img {
@@ -45,6 +57,15 @@ h2{
 	margin: 0 0 25px 0;
 	align-self: center;
 }
+
+/*h1, h2, h3 {
+	font-size:80px;
+	margin: 0;
+    color: orange;
+}
+*/
+
+
 
 .center{
 	display:block;
@@ -66,27 +87,38 @@ li{
 	margin: 0 0 3px 0;
 }
 
+/*Body*/
+
 /*Call to Action*/
 
-#Center{
-	margin: auto;
-	align-content: center;
+#main{
+	display: block;
+	justify-content: center;
 }
 
-#Center .Cta {
+
+.Cta {
+	display: flexbox;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
 	background-image: url(../IMAGES/HomepageBanner.png);
-	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.Cta{
 	
 }
 
 
-
-h3{
+#main h3{
 	font-family: grenadine-mvb, sans-serif;
 	color: darkgreen;
 	font-size: 60px;
-	margin: unset;
+	display: flex;
+	justify-content: center;
 }
 
 
